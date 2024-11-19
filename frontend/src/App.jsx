@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer';
 import Aboutus from './pages/Aboutus/Aboutus';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 import Loginpopup from './components/Loginpopup/Loginpopup';
-import Verify  from './pages/verify/verify'
+import Verify  from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders';
 
 
