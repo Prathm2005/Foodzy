@@ -9,11 +9,10 @@ const Fooddisplay = ({ category }) => {
 
     useEffect(() => {
         
-        const timer = setTimeout(() => {
+        if (food_list && food_list.length > 0) {
             setIsLoading(false);
-        }, 1000); 
-        return () => clearTimeout(timer); 
-    }, [category]);
+        }
+    }, [food_list]);
 
     return (
         <div className="food-display" id="food-display">
